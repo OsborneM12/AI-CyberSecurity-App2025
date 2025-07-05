@@ -2,7 +2,7 @@ import pandas as pd # type: ignore
 from joblib import load # type: ignore
 
 def load_model():
-    model_path = r'C:\Users\Macaulay\Documents\AI-CyberSecurity-App2025\project\src\Artificial Intelligence\new_random_forest_model.joblib'
+    model_path = r'C:\Users\Macau\Documents\AI-CyberSecurity-App2025\project\src\Artificial Intelligence\random_forest_model.joblib'
     return load(model_path)
 
 def preprocess_data(input_data):
